@@ -1,0 +1,58 @@
+/* Aula 1 */
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/* SECCION DE PRODUCTOS */
+
+.productos__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    z-index: 1;
+    padding: 40px 12% 10px 12%;
+}
+
+
+/* grid productos */
+.descripcion-producto {
+    margin-top: 1rem;
+    display: grid;
+    text-align: start;
+    column-gap: 1rem;
+    row-gap: 10px;
+    grid-template-columns: auto 1fr;
+}
+
+.descripcion-producto h3 {
+    padding-top: 20px;
+    grid-area: 1 / 2 / 2 / 3;
+    color: #ffffff;
+    font-family: "IBM Plex Mono";
+
+}
+
+.descripcion-producto p {
+    grid-area: 2 / 2 / 3 / 3;
+    font-size: 14px;
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+
+@media(min-width: 834px) {
+
+    .productos__container {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+@media(min-width: 1440px) {
+    .productos__item {
+        width: 288px;
+    }
+}

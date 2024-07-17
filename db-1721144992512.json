@@ -1,0 +1,58 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "titulo": "Game boy",
+      "precio": "50,00",
+      "imagen": "https://images.pexels.com/photos/14824330/pexels-photo-14824330.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 2,
+      "titulo": "Play Station",
+      "precio": "50,00",
+      "imagen": "data:image/jpeg;base64,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"
+    },
+    {
+      "id": 3,
+      "titulo": "Xbox",
+      "precio": "50,00",
+      "imagen": "https://cdn.pixabay.com/photo/2017/04/04/18/19/video-game-console-2202666_1280.jpg"
+    },
+    {
+      "id": 4,
+      "titulo": "Tablet",
+      "precio": "50,00",
+      "imagen": "https://cdn.pixabay.com/photo/2014/11/12/15/48/apple-528461_1280.jpg"
+    },
+    {
+      "id": 5,
+      "titulo": "Celular",
+      "precio": "50,00",
+      "imagen": "https://cdn.pixabay.com/photo/2014/09/23/21/23/iphone-6-458159_640.jpg"
+    },
+    {
+      "id": 6,
+      "titulo": "bicicleta",
+      "precio": "50,00",
+      "imagen": "https://cdn.pixabay.com/photo/2021/08/28/08/03/bicycle-6580288_640.jpg"
+    },
+    {
+      "titulo": "Pantalla 4k full hd",
+      "precio": "3000000",
+      "imagen": "https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "id": 7
+    },
+    {
+      "titulo": "pantalla",
+      "precio": "20000",
+      "imagen": "https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "id": 8
+    },
+    {
+      "titulo": "celular",
+      "precio": "20000",
+      "imagen": "https://cdn.pixabay.com/photo/2014/09/23/21/23/iphone-6-458159_640.jpg",
+      "id": 9
+    }
+  ]
+}
